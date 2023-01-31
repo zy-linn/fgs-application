@@ -1,8 +1,6 @@
-# fgs-application
-
 # 华为云函数计算 Node.JS HTTP 案例
 
-只需几步就可以快速在阿里云函数计算服务上体验 Node.JS HTTP ：
+只需几步就可以快速在华为云函数计算服务上体验 Node.JS HTTP ：
 
 - 初始化项目：`s init zyl-fgs-http-nodejs`
 - 进入项目：`cd zyl-fgs-http-nodejs`
