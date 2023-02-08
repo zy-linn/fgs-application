@@ -39,5 +39,5 @@ Parameters:
     functionName:
       title: 函数名
       type: string
-      default: start-fgs-http-nodejs14
+      default: start-fg-http-nodejs14
       description: 可包含字母、数字、下划线和中划线，以大/小写字母开头，以字母或数字结尾，长度不超过60个字符。

@@ -1,5 +1,5 @@
 edition: 1.0.0 #  命令行YAML规范版本，遵循语义化版本（Semantic Versioning）规范
-name: fgsHttpNodejs14 #  项目名称
+name: fgHttpNodejs14 #  项目名称
 access: "{{ access }}" #  秘钥别名
 
 vars: # 全局变量
@@ -8,7 +8,7 @@ vars: # 全局变量
 
 services:
   component-test: #  服务名称
-    component: zylfgs # 组件名称
+    component: fgs # 组件名称
     props:
       region: ${vars.region}
       function:
