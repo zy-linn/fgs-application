@@ -1,5 +1,5 @@
 Type: Application
-Name: fgs-http-nodejs14
+Name: start-fg-http-nodejs14
 Version: 0.0.1
 Provider:
   - 华为云
