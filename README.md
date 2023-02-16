@@ -1,9 +1,18 @@
-# 华为云函数计算 Node.JS HTTP 案例
+# 华为云函数计算： FG 案例
 
-只需几步就可以快速在华为云函数计算服务上体验 Node.JS HTTP ：
+## 本地快速体验
+通过该应用，您可以简单快速的创建一个 FC 案例到阿里云函数计算服务。
 
-- 初始化项目：`s init zyl-fgs-http-nodejs`
-- 进入项目：`cd zyl-fgs-http-nodejs`
-- 部署项目：`s deploy`
+- 下载命令行工具：`npm install -g @serverless-devs/s`
+- 初始化一个模版项目：`s init start-fg-http-nodejs14`
+- 进入项目后部署项目：`cd start-fg-http-nodejs14 && s deploy`
 
-即可实现`Node.JS 14 HTTP`案例的初始化、部署整个流程。
+
+## 包含内容 
+- Event函数（事件函数）
+  - [fg-event-nodejs14](start-fg-event-nodejs14/src): `s init start-fg-event-nodejs14`
+  - [fg-event-python3](start-fg-event-python3/src): `s init start-fg-event-python3`
+  
+- HTTP函数 
+  - [fg-http-nodejs14](start-fg-http-nodejs14/src): `s init start-fg-http-nodejs14`
+  - [fg-http-python3](start-fg-http-python3/src): `s init start-fg-http-python3`
