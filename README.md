@@ -1,5 +1,9 @@
 # 华为云函数计算： FG 案例
 
+![图片alt](https://serverless-article-picture.oss-cn-hangzhou.aliyuncs.com/1638188206727_20211129121647053051.png)
+
+<p align="center"><b> 中文 | <a href="./readme_en.md"> English </a>  </b></p>
+
 ## 本地快速体验
 通过该应用，您可以简单快速的创建一个 FG 案例到华为云函数计算服务。
 
