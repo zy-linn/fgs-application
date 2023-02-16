@@ -1,0 +1,43 @@
+Type: Application
+Name: start-fg-http-nodejs14
+Version: 0.0.1
+Provider:
+  - 华为云
+Description: 快速部署一个 Node.JS 的 HTTP 类型的 Hello World 函数到华为云函数计算。
+HomePage: 项目首页地址
+Tags: #标签详情
+  - 函数计算
+  - 函数工作流
+Category: 新手入门 # 基础云服务/Web框架/全栈应用/人工智能/音视频处理/图文处理/监控告警/大数据/IoT/新手入门/其它/开源项目
+Service: # 使用的服务
+  函数计算: # 函数计算/容器服务/镜像服务/消息队列/工作流/CDN/对象存储/表格存储/MNS/日志服务/API网关/数据库/解析服务/云应用/其它
+    Runtime: Node.JS
+    Authorities: #权限描述
+      - 创建函数 # 所需要的权限
+      - 删除函数 # 所需要的权限
+Parameters:
+  type: object
+  additionalProperties: false # 不允许增加其他属性
+  required: # 必填项
+    - region
+    - functionName
+  properties:
+    region:
+      title: 区域
+      type: string
+      default: cn-north-4
+      description: 创建函数所在的区域
+      enum:
+        - cn-north-4
+        - cn-east-2
+        - cn-east-3
+        - cn-south-1
+        - ap-southeast-1
+        - ap-southeast-2
+        - ap-southeast-3
+        - af-south-1
+    functionName:
+      title: 函数名
+      type: string
+      default: start-fg-http-nodejs14
+      description: 可包含字母、数字、下划线和中划线，以大/小写字母开头，以字母或数字结尾，长度不超过60个字符。
