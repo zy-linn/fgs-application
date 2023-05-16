@@ -27,17 +27,8 @@ services:
         eventTypeCode: APICreated
         status: ACTIVE
         eventData:
-          group_id: 51ed66ba137d43afc8281114ff4a
-          env_name: RELEASE
-          env_id: DEFAULT_ENVIRONMENT_RELEASE_ID
-          auth: NONE
-          protocol: HTTPS
           name: ${vars.functionName}
-          path: /${vars.functionName}
-          match_mode: SWA
-          req_method: GET
-          backend_type: FUNCTION
-          func_info:
-            timeout: 5000
-          type: 1
-          sl_domain: 51ed66ba137d43afc8281114ff4a.apig.${vars.region}.huaweicloudapis.com
+          groupName: APIGroup_test
+          auth: IAM
+          prtocol: HTTPS
+          timeout: 5000
