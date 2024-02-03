@@ -14,7 +14,7 @@
 
 ## 包含内容 
 - Event函数（事件函数）
-  - [fg-event-nodejs18](start-fg-event-nodejs14/src): `s init start-fg-event-nodejs18`
+  - [fg-event-nodejs18](start-fg-event-nodejs18/src): `s init start-fg-event-nodejs18`
   - [fg-event-nodejs16](start-fg-event-nodejs16/src): `s init start-fg-event-nodejs16`
   - [fg-event-nodejs14](start-fg-event-nodejs14/src): `s init start-fg-event-nodejs14`
   - [fg-event-python3](start-fg-event-python3/src): `s init start-fg-event-python3`
